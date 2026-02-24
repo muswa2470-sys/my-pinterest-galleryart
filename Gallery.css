@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    font-size: 25%;
+    background: floralwhite;
+    /*background-image: url(https://i.pinimg.com/736x/65/8c/19/658c198598addd13dfa450319390228a.jpg);*/
+}
+header{
+    background-image: url(https://i.pinimg.com/736x/2e/8e/d6/2e8ed651ace469d96cf6edd57b9f0466.jpg);
+    padding: 20px;
+    text-align: center;
+    color: rgb(139, 189, 139);
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.grid{
+    column-count: 4;
+    column-gap: 15px;
+    padding: 15px;
+}
+.card{
+    break-inside: avoid;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+@media (max-width: 1000px){
+    .grid{
+        column-count: 3;
+    }
+}
+@media (max-width: 700px){
+    .grid{
+        column-count: 2;
+    }
+}
+@media (max-width: 500px){
+    .grid{
+        column-count: 3;
+    }
+}
+footer{
+    margin: 0%;
+    background: url(https://i.pinimg.com/736x/d7/9d/07/d79d073e1406520ffd5c8f2b5a285aa9.jpg);
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+    color: rgb(65, 73, 65);
+}
