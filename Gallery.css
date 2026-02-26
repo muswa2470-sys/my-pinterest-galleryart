@@ -7,10 +7,10 @@ body{
 }
 header{
     background-image: url(https://i.pinimg.com/736x/2e/8e/d6/2e8ed651ace469d96cf6edd57b9f0466.jpg);
-    padding: 20px;
+    padding: 13px;
     text-align: center;
     color: rgb(139, 189, 139);
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: underline;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -43,12 +43,12 @@ header{
 }
 @media (max-width: 700px){
     .grid{
-        column-count: 2;
+        column-count: 3;
     }
 }
 @media (max-width: 500px){
     .grid{
-        column-count: 3;
+        column-count: 2;
     }
 }
 footer{
